@@ -1,16 +1,11 @@
-## Hi there 👋
+## 派生鬱 (Haseibutsu) 🙇‍♀️
+That's my nickname
+It means "derivative"
+Because everything is derived from something, like Github's branches, ideas, art, land, technology
+- 💟 The above are my main areas of interest
+- 🌱 I’m currently learning Github and R
+- 🔀 To find the right tools and techniques to express my ideas and research
+- 💬 Ask me about: what I can do for you
+- 📫 How to reach me: @kimherin.co (instagram)
+- 🚥 Fun fact: 
 
-<!--
-**yrlabs/yrlabs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
