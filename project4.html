@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled(42U)</title>
+  <style>
+    body {
+      font-family: "Times New Roman", serif;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 10px;
+    }
+
+    header {
+      font-size: 2em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .back-link {
+      font-size: 1em;
+      margin-bottom: 30px;
+    }
+
+    .project-description {
+      font-size: 1.1em;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    /* --- image layout --- */
+    .image-gallery {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .main-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .main-image {
+      flex: 1.5;
+      margin-right: 10px; /* small gap between columns */
+    }
+
+    .side-images {
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .side-images img {
+      width: 100%;
+      object-fit: cover;
+      display: block;
+      margin-bottom: 12px;
+    }
+
+    .project-details {
+      margin-top: 30px;
+    }
+
+    .project-details h3 {
+      font-size: 1.3em;
+      margin-bottom: 15px;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .image-gallery {
+        flex-direction: column;
+      }
+      .main-image, .side-images {
+        margin: 0 0 10px 0;
+      }
+      .side-images {
+        flex-direction: row;
+      }
+      .side-images img {
+        height: auto;
+        width: 48%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="back-link">
+      <a href="homepage.html">← Back to Portfolio</a>
+    </div>
+
+    <header>Untitled(42U)</header>
+
+    <div class="project-description">
+      19 x 73.5 inches. Copper wire, rack panel 
+    </div>
+
+    <div class="image-gallery">
+      <div class="main-image">
+        <img src="images/server_1.jpg" alt="Main server artwork - vertical composition">
+      </div>
+      <div class="side-images">
+        <img src="images/server_2.jpg" alt="Server artwork detail 1">
+        <img src="images/server_3.jpg" alt="Server artwork detail 2">
+      </div>
+    </div>
+
+    <div class="project-details">
+      <h3>About</h3>
+      <p>Untitled(42U) is named after the most common server rack sizes found in today’s hyperscale data centres. Measuring 73.5"(186.7cm), the height which the work is been suspended from, 42U racks house 42 units of servers. Drawing from my observations working as a data centre researcher, the work exposes one of the most critical, yet discreet structures that exists as the bedrock of our urban environments in the age of AI. This comes against the backdrop of a recent global tariff war on copper - an indispensable material used in wiring, grid connections, and data centres. Donald Trump’s recent announcement to impose tariffs on copper imports sent prices surging to a record level, reflecting the fragility of the geopolitical capitalist system that have direct effect on infrastructure and critical materials. Through the physicality and materiality of these obscure components, the work exposes the invisible owners behind the technologies that form the foundation of urban life, from calling an Uber, connecting to the wifi, light sensors on lamp posts, to traffic lights, bus schedules and much more.
+      </p>
+      <h3>Year</h3>
+      <p>2024</p>
+    </div>
+  </div>
+</body>
+</html>
