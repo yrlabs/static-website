@@ -1,11 +1,9 @@
-## 派生鬱 (Haseibutsu) 🙇‍♀️
-That's my nickname
-It means "derivative"
-Because everything is derived from something, like Github's branches, ideas, art, land, technology
-- 💟 The above are my main areas of interest
-- 🌱 I’m currently learning Github and R
-- 🔀 To find the right tools and techniques
-- 💬 Ask me about: what I can do for you
-- 📫 How to reach me: @kimherin.co (instagram)
-- 🚥 Fun fact: 
-
+After fumbling around wix, squarespace, cargo, wordpress and random ventures into python, markdown, R and javascript,
+I have finally come to the conclusion that in a world where the internet is essentially mankind's public toilet,
+where everyone's shit is rolled around until it becomes more shit,
+there is nothing better than a plain, straightforward html webiste.
+No ostentatious UI, no gimmicks, no parallex scrolling, nothing unnecessary, nothing excessive, 
+verified information with just the basic furniture. 
+So my new (and hopefully final) webiste is going to be the most mundane one you could ever imagine.
+Times New Roman, a few links to specific projects, headers and paragraphs, some videos and images.
+100% html and css. 
