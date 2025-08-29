@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Market Ratio</title>
+  <style>
+    body {
+      font-family: "Times New Roman", serif;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 10px;
+    }
+
+    header {
+      font-size: 2em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .back-link {
+      font-size: 1em;
+      margin-bottom: 30px;
+    }
+
+    .project-description {
+      font-size: 1.1em;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    /* --- image layout --- */
+    .image-gallery {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .main-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .main-image {
+      flex: 2.3;
+      margin-right: 10px; /* small gap between columns */
+    }
+
+    .side-image {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .side-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .project-details {
+      margin-top: 30px;
+    }
+
+    .project-details h3 {
+      font-size: 1.3em;
+      margin-bottom: 15px;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .image-gallery {
+        flex-direction: column;
+      }
+      .main-image, .side-image {
+        margin: 0 0 10px 0;
+      }
+      .side-image img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="back-link">
+      <a href="homepage.html">← Back to Portfolio</a>
+    </div>
+
+    <header>Market Ratio</header>
+
+    <div class="project-description">
+      Dimensions variable. Mixed media installation
+    </div>
+
+    <div class="image-gallery">
+      <div class="main-image">
+        <img src="images/market_ratio.jpg" alt="Market Ratio installation showing three works">
+      </div>
+      <div class="side-image">
+        <img src="images/rational_fantasy.jpg" alt="Rational Fantasy close-up work">
+      </div>
+    </div>
+
+    <div class="project-details">
+      <h3>About</h3>
+      <p>
+        Market Ratio brings together multiple works in dialogue, examining the shifting dynamics of value, 
+        abstraction, and perception within contemporary economies. Rational Fantasy, depicted on the right, 
+        isolates a single work from the installation, highlighting the tension between collective systems 
+        and individual perspectives. The pairing explores how artistic forms can embody both structural 
+        logic and imaginative speculation.
+      </p>
+      <h3>Year</h3>
+      <p>2024</p>
+    </div>
+  </div>
+</body>
+</html>
