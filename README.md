@@ -7,3 +7,5 @@ verified information with just the basic furniture.
 So my new (and hopefully final) webiste is going to be the most mundane one you could ever imagine.
 Times New Roman, a few links to specific projects, headers and paragraphs, some videos and images.
 100% html and css. 
+
+To view html files in rendered mode, prepend url with https://htmlpreview.github.io/?
